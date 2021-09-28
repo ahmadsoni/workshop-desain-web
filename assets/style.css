@@ -215,7 +215,7 @@ h4 {
 }
 
 .galleryRight img{
-    width: 480px;
+    width: 300px;
 }
 
 .galleryLeft p{
@@ -350,4 +350,21 @@ footer{
     float:right;
     text-align:right;
     margin-top: 64px;
+}
+
+
+
+
+.navbar-brand {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 70px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 0px 70px;
 }

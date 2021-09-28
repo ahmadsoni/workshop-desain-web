@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 <head>
-<!--meta tag untuk SEO-->
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="assets/style.css">
-       <title>Portofolio |Ahmad Shonhaji</title>
+<!--my font-->
+
+    <!--meta tag untuk SEO-->
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Portofolio |Ahmad Shonhaji</title>
 </head>
 <body>
-    <header>
+<header>
 <!--di gunakan untuk NavBar-->
-        <nav>
-           <ul class="navList">
-               <li class="logo"><a href="#"> <img src="assets/logo-header.png" alt="Logo header"></a> </li>
-               <li class="navItem"><a href="#about">About</a></li>
-               <li class="navItem"><a href="#gallery">Gallery</a></li>
-               <li class="navItem"><a href="#jadwal">Course schedule</li>
-               <li class="navItem"><a href="#contact">Contact</a></li>
-              
-           </ul>
-        </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">PENS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                            <a class="nav-link" href="#jadwal">Course schedule</a>
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                  </nav>
     </header>
 <!--home Id-->
     <div id="home">     
@@ -79,21 +89,24 @@
             <a href="">View more</a>
         </div>
         <div class="galleryRight">
-            <img src="img/place2.jpg" alt="Gambar My Work 1">
+            <img src="img/place2.png" alt="Gambar My Work 1">
         </div>
     </div>
 </div>
 <!-- Id jadwal-->
     <div id="jadwal">
         <h2>Course schedule</h2>
-            <table class="table" >
+            <table class="table table-hover" >
+                <thead>
                 <tr>
-                    <th>Hari</th>
-                    <th>Mata Kuliah</th>
-                    <th>Dosen</th>
-                    <th>Kode</th>
-                    <th>Jam</th>
+                    <th scope="col">Hari</th>
+                    <th scope="col">Mata Kuliah</th>
+                    <th scope="col">Dosen</th>
+                    <th scope="col">Kode</th>
+                    <th scope="col">Jam</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>Senin</td>
                     <td>Praktikum Konsep Pemrograman <br><br>
@@ -180,6 +193,7 @@
                     <td></td>
                     <td></td>
                 </tr>
+                </tbody>
             </table>
             
         </div>
