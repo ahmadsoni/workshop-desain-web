@@ -353,18 +353,43 @@ footer{
 }
 
 
+/*bootstrap code*/
 
 
 .navbar-brand {
     font-family: Poppins;
     font-size: 50px;
     font-weight: 600;
-    padding: 0px 70px;
+  
 }
 
-.nav-link {
+/*utility*/
+
+.tombol {
     text-transform: uppercase;
-    margin-right: 30px;
-    font-size: 20px;
-    padding: 0px 70px;
+    border-radius: 40px;
 }
+
+/*reponsive destop*/
+
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .nav-item{
+         font-size: 20px;
+        font-weight: 600px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #1455ec;
+        width: 50%;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+ }
