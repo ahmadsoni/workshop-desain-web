@@ -5,5 +5,4 @@ kamu dapat mengaksek website ini dengan link berikut :
 https://ahmadsoni.github.io/workshop-desain-web/
 -
 -
--
-- acc pull
+gntian nyet
